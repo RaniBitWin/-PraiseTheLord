@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>#PraiseTheLord</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <section id="menu">
+          <nav>
+            <ul>
+              <li>
+                <a
+                  href="#menuItens"
+                  onclick=" worshipHymns(), clearWorship() "
+                  class="change"
+                  >Adoração</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#menuItens"
+                  onclick=" praiseHymns(), clearPraise() "
+                  class="change"
+                  >Louvor</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </section>
+
+        <section id="titles">
+          <h1>Hinos</h1>
+          <h3>"Louvai ao Senhor com alegria!"</h3>
+        </section>
+      </header>
+
+      <section id="menuItens">
+        <div class="worshipLinks"><p id="worshipUrls"></p></div>
+        <div class="praiseLinks"><p id="praiseUrls"></p></div>
+      </section>
+      <footer>
+        <div>
+          <ul id="socialLinks">
+            <li class="github">
+              <a href="https://github.com/maykbrito" target="_blank">
+                <div class="zoom">
+                  <img
+                    src="images/github.svg"
+                    alt="ícone github"
+                    class="img-responsive"
+                  />
+                </div>
+              </a>
+            </li>
+
+            <li class="youtube">
+              <a href="https://youtube.com/maykbrito" target="_blank">
+                <div class="zoom">
+                  <img
+                    src="images/youtube.svg"
+                    alt="ícone youtube"
+                    class="img-responsive"
+                  />
+                </div>
+              </a>
+            </li>
+            <li class="facebook">
+              <a href="https://facebook.com/maykbrito" target="_blank">
+                <div class="zoom">
+                  <img
+                    src="images/facebook.svg"
+                    alt="ícone facebook"
+                    class="img-responsive"
+                  />
+                </div>
+              </a>
+            </li>
+            <li class="instagram">
+              <a href="https://instagram.com/maykbrito" target="_blank">
+                <div class="zoom">
+                  <img
+                    src="images/instagram.svg"
+                    alt="ícone instagram"
+                    class="img-responsive"
+                  />
+                </div>
+              </a>
+            </li>
+            <li class="twitter">
+              <a href="https://twitter.com/maykbrito" target="_blank">
+                <div class="zoom">
+                  <img
+                    src="images/twitter.svg"
+                    alt="ícone twitter"
+                    class="img-responsive"
+                  />
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
